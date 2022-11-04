@@ -1,0 +1,16 @@
+package collections;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+public class SetDemo {
+
+	public static void main(String[] args) {
+		Set<Student> ts = new TreeSet<>();
+		
+		ts.add(new Student(1, "suthan",77.1));
+		ts.add(new Student(2, "maha",85.4));
+		ts.add(new Student(1, "kannan",72.1));
+	}
+
+}

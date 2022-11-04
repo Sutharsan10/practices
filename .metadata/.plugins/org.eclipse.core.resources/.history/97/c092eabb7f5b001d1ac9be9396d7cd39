@@ -1,0 +1,24 @@
+package collections;
+
+public class Student {
+	public int sid;
+	public String sname;
+	public double sperc;
+	
+	
+	public Student(int sid, String sname, double sperc) {
+		this.sid = sid;
+		this.sname = sname;
+		this.sperc = sperc;
+	}
+
+
+	public static void main(String[] args) {
+		Student s1 = new Student(1, "suthan",77.1);
+		Student s2 = new Student(2, "maha",85.4);
+		Student s3 = new Student(1, "kannan",72.1);
+		
+		
+	}
+
+}
